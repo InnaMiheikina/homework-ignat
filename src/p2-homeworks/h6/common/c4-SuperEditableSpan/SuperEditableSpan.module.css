@@ -1,0 +1,27 @@
+.span {
+    display: inline-block;
+
+    height: 31px;
+    padding-top:  10px;
+
+    cursor: pointer;
+    color: indigo;
+}
+.button {
+    margin: 10px;
+    width: 60px;
+
+    background: cadetblue;
+    color: aqua;
+    outline: none;
+}
+.button:focus {
+    outline: aqua solid 1px;
+}
+
+.button:active {
+    background: aqua;
+}
+.active {
+    background: aqua;
+}

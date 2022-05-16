@@ -1,0 +1,27 @@
+.link {
+    text-decoration: none;
+    color: orange;
+    margin: 10px;
+}
+.link:hover {
+    color: chocolate;
+}
+
+.active {
+    color: darkorange;
+}
+.block {
+    width: 21px;
+    height: 21px;
+    margin: 10px;
+    background: lime;
+}
+.header {
+    display: flex;
+    width: 241px;
+    transition-duration: 500ms;
+    transform: translate(-220px);
+}
+.header:hover {
+    transform: translate(0);
+}

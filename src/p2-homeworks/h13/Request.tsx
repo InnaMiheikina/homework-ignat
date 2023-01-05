@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import {useDispatch} from "react-redux";
-import {Dispatch} from "redux";
 import {RequestsAPI} from "./RequestsAPI ";
 
 const Request = () => {
@@ -20,8 +18,3 @@ const Request = () => {
 };
 
 export default Request;
-
-/*
-const newValueTC = (value:boolean)=> (dispatch:Dispatch)=> {
-    RequestsAPI.post()
-}*/

@@ -1,0 +1,36 @@
+.button {
+    margin: 10px;
+    width: 60px;
+
+   background: cadetblue;
+    color: aqua;
+    outline: none;
+}
+.button:focus {
+    outline: aqua solid 1px;
+}
+
+.button:active {
+    background: aqua;
+}
+.active {
+    background: aqua;
+}
+.affair {
+    display: flex;
+}
+.item {
+    margin: 10px;
+    width: 100px;
+}
+.high {
+    color: red;
+}
+.middle {
+    color: orange;
+}
+
+.low {
+    color: lime;
+}
+

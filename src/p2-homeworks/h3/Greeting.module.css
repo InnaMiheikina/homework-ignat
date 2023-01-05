@@ -1,0 +1,28 @@
+.someClass {
+
+}
+
+.error {
+    border: 1px solid red;
+}
+.errorMessage {
+    color: red;
+}
+.button {
+    margin: 10px;
+    width: 60px;
+
+    background: cadetblue;
+    color: aqua;
+    outline: none;
+}
+.button:focus {
+    outline: aqua solid 1px;
+}
+
+.button:active {
+    background: aqua;
+}
+.active {
+    background: aqua;
+}
